@@ -55,7 +55,7 @@ https://validator.w3.org/unicorn/);
 користувача на сторінку __Accessories Page__.
 ###
 
-# MainPage
+# Main Page
 ###
 #### Hero
 ###

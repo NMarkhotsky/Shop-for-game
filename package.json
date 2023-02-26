@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/NMarkhotsky/Shop-for-game",
+  "homepage": "https://github.com/NMarkhotsky/Shop-for-gamers",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Shop-for-game/"
+    "build": "parcel build src/*.html --public-url /Shop-for-gamers/"
   },
   "repository": {
     "type": "git",

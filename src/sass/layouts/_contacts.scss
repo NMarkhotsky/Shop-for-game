@@ -1,298 +1,299 @@
 .contacts {
-    padding-bottom: 48px;
-        @extend %bg_t_1;
-        @extend %bg_d_1--bottom;
-        @include tablet {
-            padding-bottom: 120px;
-        }
+  padding-bottom: 48px;
+  @extend %bg_t_1;
+  @extend %bg_d_1--bottom;
+  @include tablet {
+    padding-bottom: 120px;
+  }
 }
 
 .contacts-part__container {
-    @extend %bg_lines;
+  @extend %bg_lines;
 }
 
 .contacts-part__picture {
-    @media screen and (max-width: 767px) {
-        margin-left: -16px;
-        margin-right: -16px;
-    }    
+  @media screen and (max-width: 767px) {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
 }
 
 .contacts-part__image {
-    width: 100%;
-    
-    @include tablet {
-        border-radius: 12px;
-    }          
+  width: 100%;
+
+  @include tablet {
+    border-radius: 12px;
+  }
 }
 
 .contacts-part__title {
-    margin-bottom: 35px;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: calc(28 / 24);
-    color: $main-text-color;
+  margin-bottom: 35px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: calc(28 / 24);
+  color: $main-text-color;
 
-    @include tablet {
-        margin-bottom: 67px;
-        margin-left: 59px;
-        font-size: 56px;
-        line-height: calc(66 / 56);
-    }
+  @include tablet {
+    margin-bottom: 67px;
+    margin-left: 59px;
+    font-size: 56px;
+    line-height: calc(66 / 56);
+  }
 
-    @include desktop {
-        margin-bottom: 75px;
-        margin-left: 102px;
-    }
+  @include desktop {
+    margin-bottom: 75px;
+    margin-left: 102px;
+  }
 }
 
 .contacts-part__wrap {
-    margin-top: 16px;
+  margin-top: 16px;
 
-    @include tablet {
-        margin-top: 32px;            
-    }
+  @include tablet {
+    margin-top: 32px;
+  }
 
-    @include desktop {        
-        margin-top: 59px;
-        display: flex;
-        justify-content: flex-start;
-        
-    }
+  @include desktop {
+    margin-top: 59px;
+    display: flex;
+    justify-content: flex-start;
+  }
 }
 
 .contacts-part__contacts {
-    margin-bottom: 24px;
-    @include tablet {
-        margin-bottom: 40px;
-    }
+  margin-bottom: 24px;
+  @include tablet {
+    margin-bottom: 40px;
+  }
 
-    @include desktop {
-        margin-bottom: 0;
-        margin-right: 0;
-    }
+  @include desktop {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
 }
 
-.contacts-part__text {   
-    font-weight: 400;
-    font-size: 16px;
-    line-height: calc(19 / 16);
-    color: $main-text-color;    
+.contacts-part__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: $main-text-color;
 
-    @include tablet {        
-        font-size: 24px;
-        line-height: calc(28 / 24); 
-        width: 488px;
-    }   
+  @include tablet {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+    width: 488px;
+  }
 }
 
 .contacts-part_list {
-    margin-top: 24px;    
-    
-    @include tablet {
-        display: flex;
-        margin-top: 32px;            
-    }
-    
-    @include desktop {
-        display: block;
-        margin-top: 40px;
-    }
+  margin-top: 24px;
+
+  @include tablet {
+    display: flex;
+    margin-top: 32px;
+  }
+
+  @include desktop {
+    display: block;
+    margin-top: 40px;
+  }
 }
 
 .contacts-part__item {
-    margin-left: 0;
-    padding: 0;
+  margin-left: 0;
+  padding: 0;
 
-    @include tablet {
-        margin-right: 32px;
-    }
-    
-    @include desktop {
-        margin-right: 0;
-    }
+  @include tablet {
+    margin-right: 32px;
+  }
+
+  @include desktop {
+    margin-right: 0;
+  }
 }
 
-.contacts-part__item:not(:last-child) {    
-    margin-bottom: 24px;
+.contacts-part__item:not(:last-child) {
+  margin-bottom: 24px;
 
-    @include tablet {
-        margin-bottom: 0;
-    }
+  @include tablet {
+    margin-bottom: 0;
+  }
 
-    @include desktop {
-        margin-bottom: 40px;
-    }
+  @include desktop {
+    margin-bottom: 40px;
+  }
 }
 
 .contacts-part__subtitle {
-    margin-bottom: 8px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: calc(19 / 16);
-    color: $main-text-color;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: $main-text-color;
 
-    @include tablet {
-        font-size: 24px;
-        line-height: calc(28 / 24);
-    }
+  @include tablet {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+  }
 }
 
 .contacts-part__link {
-    display: block;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: calc(19 / 16);
-    color: $grey-text-color;
-    text-decoration: none;
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: $grey-text-color;
+  text-decoration: none;
 
-    @include tablet {
-        font-size: 24px;
-        line-height: calc(28 / 24);
-    }
+  @include tablet {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+  }
 }
 
 .contacts-part__tel:not(:last-child) {
-margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
-.contacts-form {    
-    @include desktop {
-        display: flex;        
-    }
+.contacts-page-form {
+  @include desktop {
+    display: flex;
+  }
 }
 
 .register-form {
-    @include tablet {
-        margin: 0;       
-    }
+  @include tablet {
+    margin: 0;
+  }
 
-    @include desktop {
-        width: 591px;
-        margin-left: 122px;
-    }
+  @include desktop {
+    width: 591px;
+    margin-left: 122px;
+  }
 }
 
 .register-form__title {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: calc(28 / 24);
-    color: $accent-color;
-    text-transform: uppercase;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: calc(28 / 24);
+  color: $accent-color;
+  text-transform: uppercase;
 
-    @include tablet {
-        font-size: 36px;
-        line-height: calc(42 / 36);
-        }
+  @include tablet {
+    font-size: 36px;
+    line-height: calc(42 / 36);
+  }
 }
 
 .register-form__group {
-    margin-top: 16px;    
-    width: 100%;
+  margin-top: 16px;
+  width: 100%;
 }
 
 .register-form__container {
-    position: relative;
-    margin-left: 0;
-    padding: 0;
+  position: relative;
+  margin-left: 0;
+  padding: 0;
 }
 
 .register-form__label {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: calc(20 / 16);
-    color: #FFFFFF;
-    position: absolute;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  color: #ffffff;
+  position: absolute;
 
-    @include tablet {
-        font-size: 18px;            
-    }
+  @include tablet {
+    font-size: 18px;
+  }
 }
 
-.register-form__container>.register-form__input {
-    padding-left: 60px;
+.register-form__container > .register-form__input {
+  padding-left: 60px;
 }
 
 .register-form__input {
-    width: 100%;
-    margin-bottom: 40px;
+  width: 100%;
+  margin-bottom: 40px;
 
-    font-weight: 400;
-    font-size: 16px;
-    line-height: calc(20 / 16);    
-    background-color: $green-text-color;
-    color: $main-text-color;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  background-color: $green-text-color;
+  color: $main-text-color;
 
-    border-bottom: 1px solid #86E543;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    outline: none;   
+  border-bottom: 1px solid #86e543;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
 }
 
-.register-form__wrap {    
-    margin-left: 0;
-    padding: 0;
+.register-form__wrap {
+  margin-left: 0;
+  padding: 0;
 }
 
-.register-form__heading {   
-    display: block; 
-    margin-bottom: 4px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: calc(20 / 16);
-    color: #CDCDCD;    
+.register-form__heading {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  color: #cdcdcd;
 
-    @include tablet {
-        font-size: 18px;
-    }
+  @include tablet {
+    font-size: 18px;
+  }
 }
 
 .register-form__message {
-    width: 100%;
-    display: block;
-    resize: none;
-    background-color: $green-text-color;
-    color: $main-text-color;    
-    border: 1px solid #86E543;
-    outline: none;
+  width: 100%;
+  display: block;
+  resize: none;
+  background-color: $green-text-color;
+  color: $main-text-color;
+  border: 1px solid #86e543;
+  outline: none;
 }
 
 .register-form__btn {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 
-    @include desktop {
-        justify-content: start;
-    }
+  @include desktop {
+    justify-content: start;
+  }
 }
 
 .form__btn {
-    width: 173px;
-    margin-top: 24px;
-    
-    padding: 16px 20px;
-    background-color: $green-text-color;
-    border: 1px solid #FFFFFF;
-    border-radius: 16px;
-    color: $main-text-color;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: calc(19 / 16);  
-    text-transform: uppercase;
-    transition: filter $transition-time;
-    cursor: pointer;
-    &:hover, &:focus {
-        filter: drop-shadow(0px 4px 10px rgba(255, 255, 255, 0.1)) drop-shadow(0px 4px 20px rgba(255, 255, 255, 0.4));
-    }
-    @include tablet {
-        width: 306px;
-        margin-top: 34px;
-        font-size: 32px;
-        line-height: calc(38 / 32);
-    }      
+  width: 173px;
+  margin-top: 24px;
 
-    @include desktop {            
-        margin-top: 47px;            
-    }
+  padding: 16px 20px;
+  background-color: $green-text-color;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+  color: $main-text-color;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-transform: uppercase;
+  transition: filter $transition-time;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    filter: drop-shadow(0px 4px 10px rgba(255, 255, 255, 0.1))
+      drop-shadow(0px 4px 20px rgba(255, 255, 255, 0.4));
+  }
+  @include tablet {
+    width: 306px;
+    margin-top: 34px;
+    font-size: 32px;
+    line-height: calc(38 / 32);
+  }
+
+  @include desktop {
+    margin-top: 47px;
+  }
 }

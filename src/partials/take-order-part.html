@@ -316,112 +316,114 @@
     <div class="form-container">
       <h2 class="contacts-form__title">CONTACT US</h2>
       <form class="contacts-form">
-        <div class="contacts-form__box">
-          <div class="contacts-form__wrap">
-            <input
-              class="contacts-form__input contacts-input"
-              type="text"
-              name="text"
-              id="text"
-              required
-              pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
-              placeholder=" "
-            />
-            <label class="contacts-form__label" for="text">Name</label>
-          </div>
-          <div class="contacts-form__wrap">
-            <input
-              class="contacts-form__input contacts-input"
-              type="email"
-              name="email"
-              id="email"
-              required
-              placeholder=" "
-            />
-            <label class="contacts-form__label" for="email">Email</label>
-          </div>
-          <div class="form__select" data-state="">
-            <div class="form__select__title" data-default="Option 0">
-              Color Option
-            </div>
-            <div class="form__select__content">
+        <div class="contacts-form__main-wrap">
+          <div class="contacts-form__box">
+            <div class="contacts-form__wrap">
               <input
-                id="singleSelect0"
-                class="form__select__input"
-                type="radio"
-                name="singleSelect"
-                checked
-              />
-              <label for="singleSelect0" class="form__select__label">
-                Color Option
-              </label>
-              <input
-                id="singleSelect1"
-                class="form__select__input"
-                type="radio"
-                name="singleSelect"
+                class="contacts-form__input contacts-input"
+                type="text"
+                name="text"
+                id="text"
                 required
+                pattern="^[a-zA-Z]+$"
+                placeholder=" "
               />
-              <label for="singleSelect1" class="form__select__label"
-                >K9D Black Orange</label
-              >
+              <label class="contacts-form__label" for="text">Name</label>
+            </div>
+            <div class="contacts-form__wrap">
               <input
-                id="singleSelect2"
-                class="form__select__input"
-                type="radio"
-                name="singleSelect"
+                class="contacts-form__input contacts-input"
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder=" "
               />
-              <label for="singleSelect2" class="form__select__label"
-                >K9D Silver Gray</label
-              >
-              <input
-                id="singleSelect3"
-                class="form__select__input"
-                type="radio"
-                name="singleSelect"
-              />
-              <label for="singleSelect3" class="form__select__label"
-                >K9U White Blue</label
-              >
+              <label class="contacts-form__label" for="email">Email</label>
+            </div>
+            <div class="form__select" data-state="">
+              <div class="form__select__title" data-default="Option 0">
+                Color Option
+              </div>
+              <div class="form__select__content">
+                <input
+                  id="singleSelect0"
+                  class="form__select__input"
+                  type="radio"
+                  name="singleSelect"
+                  checked
+                />
+                <label for="singleSelect0" class="form__select__label">
+                  Color Option
+                </label>
+                <input
+                  id="singleSelect1"
+                  class="form__select__input"
+                  type="radio"
+                  name="singleSelect"
+                  required
+                />
+                <label for="singleSelect1" class="form__select__label"
+                  >K9D Black Orange</label
+                >
+                <input
+                  id="singleSelect2"
+                  class="form__select__input"
+                  type="radio"
+                  name="singleSelect"
+                />
+                <label for="singleSelect2" class="form__select__label"
+                  >K9D Silver Gray</label
+                >
+                <input
+                  id="singleSelect3"
+                  class="form__select__input"
+                  type="radio"
+                  name="singleSelect"
+                />
+                <label for="singleSelect3" class="form__select__label"
+                  >K9U White Blue</label
+                >
+              </div>
+            </div>
+            <div class="contacts-form__wrap contacts-form__wrap--icon">
+              <label class="contacts-form__label">Quantity</label>
+              <select class="contacts-form__input contacts-input"></select>
+            </div>
+            <div class="contacts-form__wrap contacts-form__wrap--icon">
+              <label class="contacts-form__label">Payment</label>
+              <select class="contacts-form__input contacts-input"></select>
             </div>
           </div>
-          <div class="contacts-form__wrap contacts-form__wrap--icon">
-            <label class="contacts-form__label">Quantity</label>
-            <select class="contacts-form__input contacts-input"></select>
-          </div>
-          <div class="contacts-form__wrap contacts-form__wrap--icon">
-            <label class="contacts-form__label">Payment</label>
-            <select class="contacts-form__input contacts-input"></select>
+          <div class="contacts-textarea__wrap">
+            <label class="contacts-textarea__label" for="message"
+              >Leave your message</label
+            >
+            <textarea
+              class="contacts-textarea"
+              name="message"
+              id="message"
+              placeholder=" "
+            ></textarea>
           </div>
         </div>
-        <div class="contacts-textarea__wrap">
-          <label class="contacts-textarea__label" for="message"
-            >Leave your message</label
+        <div class="contacts-form__btn">
+          <button
+            type="submit"
+            class="contacts-form__btn--light"
+            data-modal-buy-open
           >
-          <textarea
-            class="contacts-textarea"
-            name="message"
-            id="message"
-            placeholder=" "
-          ></textarea>
+            Buy it now
+          </button>
+          <button
+            type="submit"
+            class="contacts-form__btn--dark"
+            data-modal-add-open
+          >
+            Add to cart
+          </button>
         </div>
       </form>
-      <div class="contacts-form__btn">
-        <button
-          type="button"
-          class="contacts-form__btn--light"
-          data-modal-buy-open
-        >
-          Buy it now
-        </button>
-        <button
-          type="button"
-          class="contacts-form__btn--dark"
-          data-modal-add-open
-        >
-          Add to cart
-        </button>
-      </div>
     </div>
   </div>
 </section>

@@ -6,6 +6,9 @@
   height: 100%;
   overflow-y: auto;
   background-color: rgba(0, 20, 20, 0.8);
+}
+
+.with-transition {
   transition: opacity 500ms linear, visibility 500ms linear;
 }
 
